@@ -76,8 +76,8 @@ public class Calculate {
         System.out.println("Subtraction: " + subtract(num1, num2));
         System.out.println("Multiplication: " + multiply(num1, num2));
         System.out.println("Division: " + divide(num1, num2));
-        System.out.println("Division: " + square(num3));
-        System.out.println("Division: " + cube(num4));
+        System.out.println("Square: " + square(num3));
+        System.out.println("Cube: " + cube(num4));
         sc.close();
     }
 
