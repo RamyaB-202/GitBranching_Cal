@@ -48,11 +48,17 @@ public class Calculate {
         }
         return num1 / num2;
     }
+    public static double square(double num3){
+        return num3 * num3;
+    }
+    public static double cube(double num4){
+        return num4 * num4 * num4;
+    }
 
     public static void main(String[] args) {
 
         Scanner sc = new Scanner(System.in);
-        double num1, num2;
+        double num1, num2, num3, num4;
 
         System.out.print("Enter the first number: ");
         num1 = sc.nextDouble();
@@ -60,10 +66,18 @@ public class Calculate {
         System.out.print("Enter the second number: ");
         num2 = sc.nextDouble();
 
+        System.out.print("Enter the value to square: ");
+        num3 = sc.nextDouble();
+
+        System.out.print("Enter the value to cube: ");
+        num4 = sc.nextDouble();
+
         System.out.println("Addition: " + add(num1, num2));
         System.out.println("Subtraction: " + subtract(num1, num2));
         System.out.println("Multiplication: " + multiply(num1, num2));
         System.out.println("Division: " + divide(num1, num2));
+        System.out.println("Division: " + square(num3));
+        System.out.println("Division: " + cube(num4));
         sc.close();
     }
 
