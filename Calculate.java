@@ -1,4 +1,4 @@
-import java.util.Scanner;
+//import java.util.Scanner;
 
 public class Calculate {
 
@@ -69,8 +69,8 @@ public class Calculate {
 
     public static void main(String[] args) {
 
-        Scanner sc = new Scanner(System.in);
-        double num1, num2, num3, num4;
+        //Scanner sc = new Scanner(System.in);
+        double num1=26, num2=12, num3=46, num4=86;
 
         System.out.print("Enter the first number: ");
         num1 = sc.nextDouble();
