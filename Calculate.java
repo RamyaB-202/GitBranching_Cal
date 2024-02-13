@@ -72,17 +72,17 @@ public class Calculate {
         //Scanner sc = new Scanner(System.in);
         double num1=26, num2=12, num3=46, num4=86;
 
-        System.out.print("Enter the first number: ");
-        num1 = sc.nextDouble();
+        System.out.print("Enter the first number: "+num1);
+        //num1 = sc.nextDouble();
 
-        System.out.print("Enter the second number: ");
-        num2 = sc.nextDouble();
+        System.out.print("Enter the second number: "+num2);
+        //num2 = sc.nextDouble();
 
-        System.out.print("Enter the value to square: ");
-        num3 = sc.nextDouble();
+        System.out.print("Enter the value to square: "+num3);
+        //num3 = sc.nextDouble();
 
-        System.out.print("Enter the value to cube: ");
-        num4 = sc.nextDouble();
+        System.out.print("Enter the value to cube: "+num4);
+        //num4 = sc.nextDouble();
 
         System.out.println("Addition: " + add(num1, num2));
         System.out.println("Subtraction: " + subtract(num1, num2));
@@ -90,7 +90,7 @@ public class Calculate {
         System.out.println("Division: " + divide(num1, num2));
         System.out.println("Square: " + square(num3));
         System.out.println("Cube: " + cube(num4));
-        sc.close();
+        //sc.close();
     }
 
     
