@@ -91,7 +91,5 @@ public class Calculate {
         System.out.println("Square: " + square(num3));
         System.out.println("Cube: " + cube(num4));
         //sc.close();
-    }
-
-    
+    } 
 }
